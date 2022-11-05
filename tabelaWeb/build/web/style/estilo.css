@@ -1,0 +1,67 @@
+.botaos {
+	margin-top:16px;
+	margin-bottom:12px;
+}
+
+
+.box-lc {
+  background-color:white;
+  z-index: 100;
+  width:33%;
+  position: fixed; /* or absolute */
+  top: 40%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.box-img {
+  background-color:white;
+  z-index: 100;
+  width:60%;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+#cadastro {
+	display:none;
+}
+#login {
+	display:none;
+}
+
+.popup-titulo {
+  margin-top:12px;
+  margin-bottom:12px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.link-opcao{
+	font-size: 13px;
+	
+}
+
+.popup-shadow {
+  box-shadow:0 0 10px 2000px rgba(0,0,0,0.5);/* dark around it */	
+}
+
+.close-button-popup {
+  position: fixed; /* or absolute */
+  top: 2%;
+  right: 2%;
+}
+
+/*.close-button-popup:hover, .close-button-popup:visited, .close-button-popup:link, .close-button-popup:active, .close-button-popup:click
+{
+    text-decoration: none;
+}
+button:focus{
+    border: none !important;
+	outline:none !important;
+}*/
